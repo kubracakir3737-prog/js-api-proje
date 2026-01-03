@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.kapsayici {
+    background-image: url("foto5.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.kutu {
+    width: 700px;
+    background-color: white; 
+    border: 2px solid rgb(52, 49, 49);
+    margin: 15px auto;
+    padding: 0; 
+    overflow: hidden;
+}
+
+
+.kutu-baslik {
+    background-color: rgb(200, 200, 200); 
+    border-bottom: 2px solid rgb(52, 49, 49);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.kutu-icerik {
+    padding: 20px;
+}
+
+
+.header h1 {
+    font-size: 32px;
+    color: rgb(79, 6, 35);
+    font-family: Impact, sans-serif;
+    margin: 10px 0;
+}
+
+.arama {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.arama input {
+    width: 220px;
+    padding: 8px;
+}
+
+.arama button {
+    padding: 8px 16px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.durum {
+    padding: 10px;
+    font-style: italic;
+    background-color: rgb(212, 207, 207); 
+}
+
+.kart button {
+    background-color: #4f0623;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
