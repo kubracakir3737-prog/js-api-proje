@@ -1,4 +1,4 @@
-# js-api-proje# Cinsiyet Tahmini
+# Cinsiyet Tahmini
 
 Bu proje JavaScript dersinde Fetch API konusunu öğrenmek için yapılmıştır.
 
@@ -12,7 +12,7 @@ Gelen bilgiler JavaScript ile ekranda gösterilir.
 Genderize API
 
 Örnek kullanım:
-https://api.genderize.io/?name=ali
+https://api.genderize.io/?name=alex
 
 ---
 
@@ -36,5 +36,6 @@ https://api.genderize.io/?name=ali
 - forEach
 
 ---
+
 
 Bu proje eğitim amaçlıdır.
