@@ -22,4 +22,3 @@ ismin cinsiyet tahmini ekranda gösterilir.
 
 ## Geliştirici
 - Kübra Çakır  
-- GitHub: https://github.com/kubracakir3737-prog
