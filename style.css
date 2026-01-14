@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family:serif
+}
+
+.arka-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("arkaplan.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.kapsayici {
+    min-height: 100vh;
+    padding: 40px;
+    color: #2b0f18;
+}
+
+.ust {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(10px);
+    margin-bottom: 40px;
+}
+
+.ust input {
+    padding: 8px;
+    width: 200px;
+}
+
+.ust button {
+    padding: 8px 16px;
+    background-color: #4f0623;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.durum {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.orta {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.buyuk-kutu {
+    flex: 2;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(10px);
+}
+
+.kucuk-kutu {
+    flex: 1;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(10px);
+}
+
+.kart {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 12px;
+}
+
+.kart button {
+    margin-top: 8px;
+    background-color: #4f0623;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.alt {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.alt-kutu {
+    flex: 1;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(10px);
+}
