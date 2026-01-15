@@ -20,22 +20,22 @@ body {
     color: #2b0f18;
 }
 
-.ust {
+.kutu1 {
     max-width: 900px;
     margin: auto;
     padding: 30px;
     border-radius: 20px;
     background: rgba(255,255,255,0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(25px);
     margin-bottom: 40px;
 }
 
-.ust input {
+.kutu1 input {
     padding: 8px;
     width: 200px;
 }
 
-.ust button {
+.kutu1 button {
     padding: 8px 16px;
     background-color: #4f0623;
     color: white;
@@ -48,7 +48,7 @@ body {
     font-style: italic;
 }
 
-.orta {
+.kutu2 {
     max-width: 900px;
     margin: auto;
     display: flex;
@@ -56,20 +56,20 @@ body {
     margin-bottom: 40px;
 }
 
-.buyuk-kutu {
+.analiz {
     flex: 2;
     padding: 20px;
     border-radius: 18px;
-    background: rgba(255,255,255,0.25);
-    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(25px);
 }
 
-.kucuk-kutu {
+.detay {
     flex: 1;
     padding: 20px;
     border-radius: 18px;
     background: rgba(255,255,255,0.35);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(25px);
 }
 
 .kart {
@@ -88,14 +88,14 @@ body {
     cursor: pointer;
 }
 
-.alt {
+.kutu3 {
     max-width: 900px;
     margin: auto;
     display: flex;
     gap: 30px;
 }
 
-.alt-kutu {
+.alt-kutu3 {
     flex: 1;
     padding: 20px;
     border-radius: 18px;
